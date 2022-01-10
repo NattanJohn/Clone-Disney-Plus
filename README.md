@@ -3,7 +3,7 @@
 <p>Recriei a interface da Disney Plus como projeto de estudo para exercitar e  treinar todas as skills usando HTML,CSS E Javascript
  
 <p align ="center">
-  <img width="600" src="src/gif.gif">
+  <img width="600" src="video.Clonedisney.mp4">
   </p>
   
 <h3>TÉCNOLOGIAS</h3>
