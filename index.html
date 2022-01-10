@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney+ | Filmes e Séries</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../ex/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="../ex/owl/owl.theme.default.min.css">i
+    <script src="https://kit.fontawesome.com/dacf30babb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="user-main">
+            <div  class="users">
+                <img src="../ex/img/user.png" alt="">
+                <a href="">Usuario 1</a>
+            </div>
+            <div class="users">
+                <img src="../ex/img/avatar1.png" alt="">
+                <a href="">Usuario 2</a>
+            </div>
+            <div class="users">
+                <img src="../ex/img/avatar2.png" alt="">
+                <a href="">Usuario 3</a>
+            </div>
+            <div class="users">
+                <img src="../ex/img/avatar3.png" alt="">
+                <a href="">Usuario 4</a>
+            </div>
+            <div  class="user-desc">
+                <a href="">Editar Perfis</a>
+                <a href="">Configuração do Aplicativo</a>
+                <a href="">Conta</a>
+                <a href="">Ajuda</a>
+                <a href="">Sair</a>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="icon">
+                <img src="../ex/img/icon.png" alt="">
+            </div>
+            <div class="menu-options">
+                <i class="fas fa-home"></i><a href="">INÍCIO</a>
+                <i class="fas fa-search"></i><a href="">PESQUISA</a>
+                <i class="fas fa-plus"></i><a href="">MINHA LISTA</a>
+                <i class="fas fa-star"></i><a href="">ORIGINAIS</a>
+                <i class="fas fa-film"></i><a href="">FILMES</a>
+                <i class="fas fa-tv"></i><a href="">SÉRIES</a>
+            </div>
+        </div>
+        <div class="menu-user ">
+            <div class="user">
+                <a  href="">Úsuario</a>
+            </div>
+            <div class="icon-user">
+                <img src="../ex/img/user.png" alt="">
+            </div>
+            <div class="icon">
+                <i onclick="opentoggle(),abrir()" class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </header>
+    <section class="section-carrousel">
+        <div id="carrosel1" class="owl-carousel owl-theme">
+            <div class="carousel-movies">
+                <img src="../ex/img/encantos.jpg" alt="Encantos">
+                <img class="title-movie" src="../ex/img/encantos-title.png" alt="">
+            </div>
+            <div class="carousel-movies">
+                <img src="../ex/img/gelo.jpg" alt="Era do Gelo 2">
+                <img class="title-movie" src="../ex/img/gelo-title.png" alt="">
+            </div>
+            <div class="carousel-movies">
+                <img src="../ex/img/mandalorian.jpg" alt="Mandalorian">
+                <img class="title-movie" src="../ex/img/mandalorian-title.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="section-categories">
+        <div class="categories-item">
+            <img class="item-image" src="../ex/img/disney.png" alt="">
+            <video class="item-video" src="../ex/video/disney.mp4" loop autoplay></video>
+        </div>
+        <div class="categories-item">
+            <img class="item-image" src="../ex/img/pixar.png" alt="">
+            <video class="item-video" src="../ex/video/pixar.mp4" muted loop autoplay></video>
+        </div>
+        <div class="categories-item" class="categories-item">
+            <img class="item-image" src="../ex/img/marvel.png" alt="">
+            <video class="item-video" src="../ex/video/marvel.mp4" muted loop autoplay></video>
+        </div>
+        <div class="categories-item">
+            <img class="item-image" src="../ex/img/starwars.png" alt="">
+            <video class="item-video" src="../ex/video/star-war.mp4" muted loop autoplay></video>
+        </div>
+        <div class="categories-item">
+            <img class="item-image" src="../ex/img/national.png" alt="">
+            <video class="item-video" src="../ex/video/geographic.mp4" muted loop autoplay></video>
+        </div>
+    </section>
+    <section class="list-films">
+        <h2 class="list-name">Recomendado para Você</h2>
+        <div class="owl-carousel owl-theme carousel-container">
+            <div class="item">
+                <img src="../ex/img/movies/vingadores.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/viuva-negra.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/toystory.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/doutor.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/incriveis.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/luca.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/moana.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/pantera-negra.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/ratatouile.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/thor.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="list-films">
+        <h2 class="list-name">Novidades na Disney+</h2>
+        <div class="owl-carousel owl-theme carousel-container">
+            <div class="item">
+                <img src="../ex/img/movies/vingadores.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/viuva-negra.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/toystory.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/doutor.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/incriveis.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/luca.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/moana.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/pantera-negra.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/ratatouile.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/thor.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="list-films">
+        <h2 class="list-name">Originais</h2>
+        <div class="owl-carousel owl-theme carousel-container">
+            <div class="item">
+                <img src="../ex/img/movies/vingadores.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/viuva-negra.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/toystory.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/doutor.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/incriveis.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/luca.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/moana.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/pantera-negra.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/ratatouile.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/thor.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="list-films">
+        <h2 class="list-name">Tendências</h2>
+        <div class="owl-carousel owl-theme carousel-container">
+            <div class="item">
+                <img src="../ex/img/movies/elena.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/soul.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/zootopia.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/doutor.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/capitã.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/luca.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/moana.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/pantera-negra.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/ratatouile.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../ex/img/movies/thor.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-img">
+            <img src="../ex/img/icon.png" alt="">
+        </div>
+        <div class="footer-main">
+            <div class="footer-desc">
+                <p>Projeto desenvolvido apenas para estudos.</p>
+            </div>
+            <div class="net">
+                <a href="https://www.instagram.com/natte_john/"target="_blank" i class="fab fa-instagram fa-2x"></a>
+                <a href="https://wa.me/5569984768248"target="_blank" i class="fab fa-whatsapp fa-2x"></a>
+                <a href="https://github.com/NattanJohn" target="_blank" i class="fab fa-github fa-2x"></a>
+           </div>
+           <p>Todos os direitos reservados a Disney</p>
+        </div>
+        
+        
+    </footer>
+    <script src="script.js"></script>
+    <script src="../ex/js/owl/jquery.min.js"></script>
+    <script src="../ex/js/owl/owl.carousel.min.js"></script>
+    <script src="../ex/js/main.js"></script>
+</body>
+</html>
