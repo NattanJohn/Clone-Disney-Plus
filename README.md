@@ -1,6 +1,6 @@
 <h1>Clone Disney Plus</h1>
 
-<p>Recriei a interface da Disney Plus como projeto de estudo para exercitar e  treinar todas as skills usando HTML,CSS E Javascript
+<p>Recriei a interface da Disney Plus como projeto de estudo para exercitar e  treinar todas as skills usando HTML,CSS E Javascript.
  
 ## Deploy da Aplicação com GitHub Pages: :dash:
 https://nattanjohn.github.io/Clone-Disney-Plus/
